@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "drxclient",
+  "version": "${version}",
+  "name": "DRX CLIENT",
+  "description": "Client-side: facas estilo CS, capas personalizadas e otimizações.",
+  "authors": ["DRX"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["pt.drx.client.DrxClient"] },
+  "mixins": ["drxclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pt.drx.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["CapeMixin", "ItemModelMixin", "ParticleMixin", "EntityCullMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
